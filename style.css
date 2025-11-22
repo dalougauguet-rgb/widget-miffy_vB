@@ -1,0 +1,66 @@
+#container {
+    position: relative;
+    width: 380px;
+    height: 400px;
+    margin: 40px auto;
+    padding: 20px 20px 70px;
+    text-align: center;
+    background-color: #717E69;
+    border-radius: 25px;
+}
+
+#titre {
+    font-family: 'Press Start 2P', monospace;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+#miffyImg {
+    width: 280px;
+    height: auto;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+}
+
+.side {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.side img {
+    width: 45px;
+    height: auto;
+}
+
+#left { left: 15px;}
+#right { right: 15px;}
+
+.bottom {
+    position: relative; /* place les boutons par rapport au container */
+    bottom: 0; 
+    margin: 15px 8px 0 8px;
+    padding: 3px;/* 10px du bas */ 
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    transform: scale(1.1);
+    background: none;
+    border-radius: 15px;
+}
+
+.bottom img {
+    width: 55px;
+    border-radius: 15px;
+}
+
+
+
