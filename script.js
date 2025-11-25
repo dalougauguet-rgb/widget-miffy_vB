@@ -1,16 +1,16 @@
 const robes = [
-    "images/pull1.jpeg",
-    "images/pull2.jpeg",
-    "images/pull3.jpeg",
-    "images/pull4.jpeg",
+    "pull1.jpeg",
+    "pull2.jpeg",
+    "pull3.jpeg",
+    "pull4.jpeg",
 ];
 
 // chaque pull a ses accessoires spécifiques
 const accessoiresParPull = {
-    0: [ "images/pull1_acc1.jpeg", "images/pull1_acc2.jpeg", "images/pull1_acc3.jpeg", "images/pull1_acc4.jpeg" ],
-    1: [ "images/pull2_acc1.jpeg", "images/pull2_acc2.jpeg", "images/pull2_acc3.jpeg", "images/pull2_acc4.jpeg" ],
-    2: [ "images/pull3_acc1.jpeg", "images/pull3_acc2.jpeg", "images/pull3_acc3.jpeg", "images/pull3_acc4.jpeg" ],
-    3: [ "images/pull4_acc1.jpeg", "images/pull4_acc2.jpeg", "images/pull4_acc3.jpeg", "images/pull4_acc4.jpeg" ]
+    0: [ "pull1_acc1.jpeg", "pull1_acc2.jpeg", "pull1_acc3.jpeg", "pull1_acc4.jpeg" ],
+    1: [ "pull2_acc1.jpeg", "pull2_acc2.jpeg", "pull2_acc3.jpeg", "pull2_acc4.jpeg" ],
+    2: [ "pull3_acc1.jpeg", "pull3_acc2.jpeg", "pull3_acc3.jpeg", "pull3_acc4.jpeg" ],
+    3: [ "pull4_acc1.jpeg", "pull4_acc2.jpeg", "pull4_acc3.jpeg", "pull4_acc4.jpeg" ]
 };
 let index = 0;
 let currentSet = robes; // par défaut = robes
@@ -70,3 +70,4 @@ document.getElementById("left").onclick = () => {
 
 // première image au chargement
 updateImage();
+
